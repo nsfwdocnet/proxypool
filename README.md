@@ -57,7 +57,7 @@ $ make
 
 ### 4. 下载预编译程序
 
-从这里下载预编译好的程序 [release](https://github.com/Sansui233/proxypool/releases)。
+从这里下载预编译好的程序 [release](https://github.com/nsfwdocnet/proxypool/releases)。
 
 ### 5. 使用docker
 
@@ -88,7 +88,7 @@ $ docker run -d --restart=always \
 
 ### 修改配置文件
 
-首先修改 config.yaml 中的必要配置信息。带有默认值的字段均可不填写。完整的配置选项见[配置文件说明](https://github.com/Sansui233/proxypool/wiki/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%B4%E6%98%8E)
+首先修改 config.yaml 中的必要配置信息。带有默认值的字段均可不填写。完整的配置选项见[配置文件说明](https://github.com/nsfwdocnet/proxypool/wiki/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%B4%E6%98%8E)
 
 ### 启动程序
 
@@ -98,7 +98,7 @@ $ docker run -d --restart=always \
 $ proxypool -c ./config/config.yaml
 ```
 
-如果需要部署到VPS，更多细节请[查看wiki](https://github.com/Sansui233/proxypool/wiki/%E9%83%A8%E7%BD%B2%E5%88%B0VPS-Step-by-Step)。
+如果需要部署到VPS，更多细节请[查看wiki](https://github.com/nsfwdocnet/proxypool/wiki/%E9%83%A8%E7%BD%B2%E5%88%B0VPS-Step-by-Step)。
 
 ## Clash配置文件
 
