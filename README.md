@@ -1,21 +1,3 @@
-<h1 align="center">
-  <br>proxypool<br>
-</h1>
-
-<h5 align="center">自动抓取tg频道、订阅地址、公开互联网上的ss、ssr、vmess、trojan节点信息，聚合去重测试可用性后提供节点列表</h5>
-
-<p align="center">
-  <a href="https://github.com/Sansui233/proxypool/actions">
-    <img src="https://img.shields.io/github/workflow/status/Sansui233/proxypool/Go?style=flat-square" alt="Github Actions">
-  </a>
-  <a href="https://goreportcard.com/report/github.com/Sansui233/proxypool">
-    <img src="https://goreportcard.com/badge/github.com/Sansui233/proxypool?style=flat-square">
-  </a>
-  <a href="https://github.com/Sansui233/proxypool/releases">
-    <img src="https://img.shields.io/github/release/Sansui233/proxypool/all.svg?style=flat-square">
-  </a>
-</p>
-
 ## 支持
 
 - 支持ss、ssr、vmess、trojan多种类型
@@ -123,19 +105,3 @@ $ proxypool -c ./config/config.yaml
 远程部署时Clash配置文件访问：<https://domain/clash/config>
 
 本地运行时Clash配置文件访问：<http://127.0.0.1:[端口]/clash/localconfig>
-
-## 本地检查节点可用性
-
-此项非必须。为了提高实际可用性，可选择增加一个本地服务器，检测远程proxypool节点在本地的可用性并提供配置，见[proxypoolCheck](https://github.com/Sansui233/proxypoolCheck)。
-
-## 截图
-
-![Speedtest](docs/speedtest.png)
-
-![Fast](docs/fast.png)
-
-## 声明
-
-本项目遵循 GNU General Public License v3.0 开源，在此基础上，所有使用本项目提供服务者都必须在网站首页保留指向本项目的链接
-
-本项目仅限个人自己使用，禁止使用本项目进行营利和做其他违法事情，产生的一切后果本项目概不负责
